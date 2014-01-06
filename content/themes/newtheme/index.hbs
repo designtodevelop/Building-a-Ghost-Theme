@@ -1,0 +1,32 @@
+{{!< default}}
+
+{{> header}}
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+
+    {{! Each post will be output using this markup }}
+    {{#foreach posts}}
+
+    <article class="{{post_class}}">
+        <header class="post-header">         
+            <h2 class="mytheme_post_title"><a href="{{url}}">{{{title}}}</a></h2>
+            {{#if tags}}on {{tags}}{{/if}}</span>
+        </header>
+        <section class="mytheme_post_content">
+            {{content words="100"}}
+        </section>
+        <footer class="mytheme_post_info">
+        	<span class="mytheme_date"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span>
+        	<div class="button">
+        		<a href="{{url}}">{{{title}}}</a>
+        	</div>
+        </footer>
+    </article>
+
+    {{/foreach}}
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    {{pagination}}
+
+</main>

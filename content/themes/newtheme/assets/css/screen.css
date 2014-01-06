@@ -1,0 +1,70 @@
+body { 
+	color: #727272;
+	font-family: 'Istok Web', sans-serif;
+	background-color: #e5e5e5; 
+}
+.mytheme_page {
+	max-width: 980px; 
+	margin: 0 auto;
+}
+.mytheme_header {
+	padding:20px 0;
+	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
+	text-align: center;
+	color: #2f3727;
+}
+main article {
+	margin: 30px 0;
+	background-color: #FFFFFF;
+}
+.mytheme_post_content {
+	padding: 0 20px;
+}
+.mytheme_post_title {
+	margin: 0 0 20px 0;
+	padding: 20px;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.36);
+	color: #FFFFFF;
+	background-color: #8acd36;
+}
+.mytheme_post_title a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.mytheme_main_img img {
+	width: 100%;
+	max-width: 100%;
+	border: 0;
+}
+.mytheme_post_info {
+	overflow: auto;
+	padding: 0 20px;
+	background-color: #98C148;
+}
+.mytheme_date {
+	float: left;
+	padding-top: 20px;
+	color: #FFFFFF;
+}
+.button {
+	float: right;
+	padding: 20px 0; 
+}
+.button a {
+	padding: 5px;
+	transition: ease .3s;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #39a9da;
+}
+.button a:hover {
+	background-color: #199ed9;
+}
+.pagination {
+	margin: 0 0 20px 0;
+	padding: 20px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
