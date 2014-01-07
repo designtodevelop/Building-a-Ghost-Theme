@@ -1,7 +1,10 @@
 body { 
 	color: #727272;
-	font-family: 'Istok Web', sans-serif;
-	background-color: #e5e5e5; 
+	font-family: 'Raleway', sans-serif;
+	background-color: #E5E5E5; 
+}
+p {
+	line-height: 25px;
 }
 .mytheme_page {
 	max-width: 980px; 
@@ -11,10 +14,12 @@ body {
 	padding:20px 0;
 	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.1);
 	text-align: center;
-	color: #2f3727;
+	color: #2F3727;
 }
 main article {
 	margin: 30px 0;
+	border-left:1px solid #DBDBDB;
+	border-right:1px solid #DBDBDB;
 	background-color: #FFFFFF;
 }
 .mytheme_post_content {
@@ -22,12 +27,13 @@ main article {
 }
 .mytheme_post_title {
 	margin: 0 0 20px 0;
-	padding: 20px;
-	font-size: 3em;
+	padding: 10px;
+	font-size: 2em;
+	letter-spacing: 2px;
 	text-align: center;
-	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.36);
+	text-shadow: 2px 2px 2px rgba(26, 26, 26, 0.2);
 	color: #FFFFFF;
-	background-color: #8acd36;
+	background-color: #8ACD36;
 }
 .mytheme_post_title a {
 	text-decoration: none;
@@ -67,4 +73,16 @@ main article {
 	padding: 20px;
 	text-align: center;
 	background-color: #FFFFFF;
+}
+.post-template main {
+	margin-top: 30px;
+}
+.post article {
+	margin: 0;
+	padding: 20px;
+	border: none;
+	background-color: #FFFFFF;
+}
+.post .mytheme_post_title {
+	margin-bottom: 0;
 }

@@ -1,0 +1,12 @@
+{{! The big featured header on the homepage, with the site logo and description }}
+<header class="mytheme_header" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}} role="banner">
+    <section class="mytheme_header_inner">
+        {{#if @blog.logo}}
+        	<a class="blog-logo" href="{{@blog.url}}">
+        		<img src="{{@blog.logo}}" alt="Blog Logo" />
+        	</a>
+        {{/if}}
+        <h1 class="mytheme_blog_title">{{@blog.title}}</h1>
+        <h2 class="mytheme_blog_description">{{@blog.description}}</h2>
+    </section>
+</header>

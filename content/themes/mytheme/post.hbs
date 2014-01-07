@@ -1,0 +1,26 @@
+{{!< default}}
+
+{{> header}}
+
+<main class="content" role="main">
+    <section class="{{post_class}}">
+         {{#post}}
+            <header class="mytheme_post_header">         
+                <h1 class="mytheme_post_title">{{{title}}}</h1>
+            </header>
+
+            <article>
+                {{content}}
+            </article>
+             <footer class="post-footer">
+                {{#if author}}
+                    <section class="author">
+                        <h3>Written By:</h3>
+                        <h4>{{author.name}}</h4>
+                        <p>{{author.bio}}</p>
+                    </section>
+                {{/if}}
+            </footer>
+         {{/post}}
+    </section> 
+</main>
